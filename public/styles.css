@@ -53,6 +53,11 @@ p {
     /* color: rgb(40, 52, 50); */
 }
 
+textarea:focus,
+input:focus {
+    outline: none;
+}
+
 #signup-link,
 #login-link {
     background-color: rgb(37, 109, 133, 0.9);
