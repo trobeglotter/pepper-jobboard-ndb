@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
 
 const app = express();
-const port = process.env.PGPORT || 3001;
+const port = process.env.PORT || 3001;
 
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
